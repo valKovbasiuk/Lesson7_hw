@@ -1,0 +1,34 @@
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border-width: 0;
+}
+
+
+.container {
+    font-size: 0;
+    /* line-height: 0; */
+    max-width: 920px;
+    min-height: 100vh;
+    margin: 0 auto;
+    background-color: black;
+}
+
+[class^="col-"] {
+    display: inline-block;
+    width: calc(100% / 3);
+    min-height: 100vh;
+}
+
+.col-1 {
+    background-color: red;
+}
+
+.col-2 {
+    background-color: green;
+}
+
+.col-3 {
+    background-color: blue;
+}
