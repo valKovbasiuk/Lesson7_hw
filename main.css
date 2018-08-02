@@ -15,18 +15,12 @@ img {
 
 
 .container {
-    /* vertical-align: top; */
     font-size: 0;
-    /* line-height: 0; */
     max-width: 920px;
-    min-height: 100vh;
     margin: 0 auto;
-    /* background-color: black; */
 }
 
 [class^="col-"] {
-    /* display: inline-block; */
-    float: left;
     width: calc(100% / 3);
     min-height: 100vh;
 }
@@ -42,3 +36,11 @@ img {
 .col-3 {
     background-color: blue;
 } */
+
+
+
+@media (max-width: 600px) {
+    img {
+        padding: 0;
+    }
+}

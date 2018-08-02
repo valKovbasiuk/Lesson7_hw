@@ -1,3 +1,7 @@
-.container {
-    display: block;
+[class^="col-"] {
+    float: left;
 }
+
+
+
+
