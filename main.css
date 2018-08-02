@@ -25,7 +25,8 @@ img {
 }
 
 [class^="col-"] {
-    display: inline-block;
+    /* display: inline-block; */
+    float: left;
     width: calc(100% / 3);
     min-height: 100vh;
 }
