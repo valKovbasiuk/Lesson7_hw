@@ -3,5 +3,8 @@
 }
 
 
+[class^="col-"] {
+    width: calc(100% / 3);
+}
 
 
