@@ -5,14 +5,23 @@ body {
     border-width: 0;
 }
 
+img {
+    display: block;
+    box-sizing: border-box;
+    width: 100%;
+    padding: 10px;
+    border-color: transparent;
+}
+
 
 .container {
+    /* vertical-align: top; */
     font-size: 0;
     /* line-height: 0; */
     max-width: 920px;
     min-height: 100vh;
     margin: 0 auto;
-    background-color: black;
+    /* background-color: black; */
 }
 
 [class^="col-"] {
@@ -20,7 +29,7 @@ body {
     width: calc(100% / 3);
     min-height: 100vh;
 }
-
+/* 
 .col-1 {
     background-color: red;
 }
@@ -31,4 +40,4 @@ body {
 
 .col-3 {
     background-color: blue;
-}
+} */
