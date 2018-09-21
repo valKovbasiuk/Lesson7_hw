@@ -1,1 +1,1 @@
-Hi, you can check Masonry layout in floats, flex, and grid [here](https://valkovbasiuk.github.io/Lesson7_hw/).
+check Masonry layout in floats, flex, and grid [here](http://val.co.ua/masonry_layouts/)
